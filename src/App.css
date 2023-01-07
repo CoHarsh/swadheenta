@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.mainbgimage{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.mainheadtext{
+  position: absolute;
+  width: 926px;
+  height: 159px;
+  left: 257px;
+  top: 82px;
+
+  font-family: 'TypoGraphica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 124px;
+  line-height: 173px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 18px 4px 4px rgba(16, 16, 16, 0.71);
+}
+
+.mainheadsubtext{
+  position: absolute;
+  width: 410px;
+  height: 70px;
+  left: 530px;
+  top: 280px;
+  
+  font-family: 'TypoGraphica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 73px;
+  letter-spacing: 0.05em;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 4px 0px 5px rgba(16, 16, 16, 0.71);
+}
+
+
+.eventmainpage{
+
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #200010;
+}
+
+.gridbgevent{
+
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  /* filter: blur(10px); */
+}
+
+.handsbgevnet{
+  position: absolute;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+}
+
+.eventheading{
+  position: absolute ;
+  width: 459px;
+  height: 159px;
+  left: 462px;
+  top: 634px;
+
+  font-family: 'TypoGraphica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 92px;
+  line-height: 173px;
+  text-align: center;
+  letter-spacing: 0.08em;
+
+  color: #FFFFFF;
+
+  text-shadow: -11px 4px 250px rgba(61, 61, 61, 0.59);
+}
+
+
+.carsunbgabout{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aboutmainpage{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.aboutusheading{
+  position: absolute;
+  width: 620px;
+  height: 181px;
+  left: 382px;
+  top: 153px;
+
+  font-family: 'TypoGraphica';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 92px;
+  line-height: 173px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}

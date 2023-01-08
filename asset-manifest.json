@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/swadheenta/static/css/main.fca2d22b.css",
+    "main.js": "/swadheenta/static/js/main.1a57fb6f.js",
+    "static/js/787.14450206.chunk.js": "/swadheenta/static/js/787.14450206.chunk.js",
+    "static/media/carsunbg.png": "/swadheenta/static/media/carsunbg.d16b850f94fe7a569922.png",
+    "static/media/retrowave.png": "/swadheenta/static/media/retrowave.9793d5062190dacf4400.png",
+    "static/media/eventhands.png": "/swadheenta/static/media/eventhands.b70d151fd64c9059fce1.png",
+    "static/media/grids.png": "/swadheenta/static/media/grids.0f2d09b16f94a77d1991.png",
+    "index.html": "/swadheenta/index.html",
+    "main.fca2d22b.css.map": "/swadheenta/static/css/main.fca2d22b.css.map",
+    "main.1a57fb6f.js.map": "/swadheenta/static/js/main.1a57fb6f.js.map",
+    "787.14450206.chunk.js.map": "/swadheenta/static/js/787.14450206.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fca2d22b.css",
+    "static/js/main.1a57fb6f.js"
+  ]
+}

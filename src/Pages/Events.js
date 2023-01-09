@@ -23,22 +23,18 @@ function Events() {
   return (
     <>
     <div className='eventmainpage' id='event'>
-
-
-        <img src={gridbgcol1} alt="gridbgevent" className="gridbgevent" />
-
         <img src={eventhands} alt="handsgettingwebsite" className='handsbgevnet' />
-
+        <div className='outsideeventtext'>
         <Link to='aboutusde' duration={1000} offset={50} smooth={true} > <h1 className='eventheading' >EVENTS</h1> </Link>
-
+        </div>
 
     </div>
 
-    <div 
+    {/* <div 
           className="apply-button" 
           data-hackathon-slug="YOUR-HACKATHON-SLUG" 
           data-button-theme="dark"
-        ></div>
+        ></div> */}
         </>
   )
 }

@@ -22,11 +22,11 @@ function Grids2() {
         <div className='maincontainergrid3'> 
             {menuItems} 
        
-        <div className='sponsortmaincontainer' id="sponsors">
+        <div className='sponsortmaincontainer container' id="sponsors">
             <h1 className='sponsorstitle'>SPONSORS</h1>    
-            <div className='sponsorscontainer' >
+            <div className='sponsorscontainer row justify-content-center' >
 
-                <div className='sponsorscard'>
+                <div className='sponsorscard col-xs-4 col-md-12'>
                     <img src={devfoliowhite} alt="logo" className='sponsorresizelogo' />
                     {/* socials */}
                     <div className='socialinsponsors'>
@@ -35,7 +35,7 @@ function Grids2() {
 
                 </div>
 
-                <div className='sponsorscard'>
+                <div className='sponsorscard col-xs-4 col-md-12'>
                     <img src={polygonwhite} alt="logo" className='sponsorresizelogo' />
                     {/* socials */}
                     <div className='socialinsponsors'>
@@ -44,7 +44,7 @@ function Grids2() {
 
                 </div>
 
-                <div className='sponsorscard'>
+                <div className='sponsorscard col-xs-4 col-md-12'>
                     <img src={fileiconlogo} alt="logo" className='sponsorresizelogo' />
                     {/* socials */}
                     <div className='socialinsponsors'>

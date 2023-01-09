@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
         <MainPage />
-        <Grids />
+        {/* <Grids /> */}
         <Events />
         <Grids2 />
         <Aboutus />

@@ -592,17 +592,13 @@
   }
 
   .sponsorscontainer{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    
     width: 90vw;
     position: relative;
     left: -8vw;
     min-height: 100vh;
   }
 
-  #sponsors{
-        
-  }
 
   .sponsorstitle{
     position: relative;
@@ -622,12 +618,14 @@
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.5);
     border-radius: 12px;
-    height: 50%;
-    width: 24vw;
-    padding-left: 10%;
-    padding-right: 10%;
+    height: 60vh;
+    width: 20rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     color: white;
     box-sizing: border-box;
+    margin-top: 50px;
+    margin-right: 50px;
   }
 
   .sponsorresizelogo{

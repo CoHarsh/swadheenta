@@ -8,10 +8,8 @@ function Aboutus() {
   return (
     <>
     <div className='aboutmainpage' id='aboutusde'>
-        <img src={carsunbg} alt='carsunbg' className='carsunbgabout' />
-        <h1 className='aboutusheading'>ABOUT US</h1>
+        <Link to='sponsors' duration={1000} offset={-50} smooth={true} ><h1 className='aboutusheading'>ABOUT US</h1></Link>
     </div>
-        <Link to='sponsors' duration={1000} offset={-50} smooth={true} >Go</Link>
         </>
   )
 }
